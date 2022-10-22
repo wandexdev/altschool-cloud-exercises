@@ -1,9 +1,9 @@
 ## Exercises from the [AltSchool](https://altschoolafrica.co)'s LMS
 
-## About :dart:
+## About:dart: :
 Exercises demonstrating Knowledge grasp of topics covered.
 
-## Description :page_with_curl:
+## Description:page_with_curl: :
 
 | Exercises   | Topic                   |
 | ----------- | ----------------------- |
