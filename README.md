@@ -3,7 +3,7 @@
 ## About:dart: :
 Exercises demonstrating Knowledge grasp of topics covered.
 
-## Description:page_with_curl: :
+## Description:page_with_curl: j:
 
 | Exercises   | Topic                   |
 | ----------- | ----------------------- |
