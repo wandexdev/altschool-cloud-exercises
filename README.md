@@ -7,14 +7,14 @@ Exercises demonstrating Knowledge grasp of topics covered.
 
 | Exercises   | Topic                   |
 | ----------- | ----------------------- |
-| `Exercise 1` | `def read_file(filename=""):` |
-| `Exercise 2` | `def number_of_lines(filename=""):` |
-| `Exercise 3` | `def read_lines(filename="", nb_lines=0):` |
-| `Exercise 4` | `def write_file(filename="", text=""):` |
-| `Exercise 5` | `def append_write(filename="", text=""):` |
-| `Exercise 6` | `def to_json_string(my_obj):` |
-| `Exercise 7` | `def from_json_string(my_str):` |
-| `Exercise 8` | `def save_to_json_file(my_obj, filename):` |
-| `Exercise 9` | `def load_from_json_file(filename):` |
-| `Exercise 10` | `def class_to_json(obj):` |
+| `Exercise 1` | `Linux ` |
+| `Exercise 2` | `` |
+| `Exercise 3` | `` |
+| `Exercise 4` | `` |
+| `Exercise 5` | `` |
+| `Exercise 6` | `` |
+| `Exercise 7` | `` |
+| `Exercise 8` | `` |
+| `Exercise 9` | `` |
+| `Exercise 10` | `` |
 
