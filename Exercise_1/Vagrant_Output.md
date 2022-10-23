@@ -1,3 +1,7 @@
 ## Output Screenshot Of Vagrant File in Folder
 
-![First half](Vagrant-1.png "First half")
+1 of 2
+![First half](Vagrant-1.png)
+
+2 of 2
+![Second half](Vagrant-2-png)
