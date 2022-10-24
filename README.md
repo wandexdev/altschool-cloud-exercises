@@ -7,7 +7,7 @@ Exercises demonstrating Knowledge grasp of topics covered.
 
 | Exercises   | Topic                   |
 | ----------- | ----------------------- |
-| `Exercise 1` | `Linux ` |
+| `Exercise_ 1` | `Linux ` |
 | `Exercise 2` | `` |
 | `Exercise 3` | `` |
 | `Exercise 4` | `` |
