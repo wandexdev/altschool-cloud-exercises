@@ -7,8 +7,8 @@ Exercises demonstrating Knowledge grasp of topics covered.
 
 | Exercises   | Topic                   |
 | ----------- | ----------------------- |
-| `Exercise_1` | `Linux ` |
-| `Exercise_2` | `` |
+| `Exercise_1` | `Linux Kernel` |
+| `Exercise_2` | `Linux kernel` |
 | `Exercis _3` | `` |
 | `Exercise_4` | `` |
 | `Exercise_5` | `` |
