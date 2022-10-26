@@ -9,8 +9,8 @@ Exercises demonstrating Knowledge grasp of topics covered.
 | ----------- | ----------------------- |
 | `Exercise_1` | `Linux Kernel` |
 | `Exercise_2` | `Linux kernel` |
-| `Exercis _3` | `` |
-| `Exercise_4` | `` |
+| `Exercis _3` | `Managing users and groups` |
+| `Exercise_4` | `Package Management` |
 | `Exercise_5` | `` |
 | `Exercise_6` | `` |
 | `Exercise_7` | `` |
