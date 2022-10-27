@@ -11,7 +11,7 @@ Exercises demonstrating Knowledge grasp of topics covered.
 | `Exercise_2` | `Linux kernel` |
 | `Exercis _3` | `Managing users and groups` |
 | `Exercise_4` | `Package Management` |
-| `Exercise_5` | `` |
+| `Exercise_5` | `GIT,Version Control,Github,Gitlab` |
 | `Exercise_6` | `` |
 | `Exercise_7` | `` |
 | `Exercise_8` | `` |
