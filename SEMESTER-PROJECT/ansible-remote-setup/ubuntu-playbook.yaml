@@ -44,10 +44,8 @@
         - php-intl
         - php-pgsql
 
-    - name: php verson
-      command: php -v
-
-    - name: ensure php8-fpm cgi.fix_pathinfo=0
+    - name: php version
+      command: sudo apt install php8.1-fpm
 
     - name: Install Composer
       when: "local_binaries.stdout.find('composer') == -1"
