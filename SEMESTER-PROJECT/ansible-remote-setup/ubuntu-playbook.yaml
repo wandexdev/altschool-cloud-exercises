@@ -99,20 +99,20 @@
         force: yes
         clone: yes
         update: yes
+      ignore_errors: yes
+
+    - name: Make sure the remote app root exists and has the right permissions
+      file:
+        path: /var/www/html/laravel-realworld-example-app
+        state: directory
+        mode: 0755
+       
 
     - name: Setup .env file
       template:
         src: files/.env.j2
         dest: /var/www/html/laravel-realworld-example-app/.env
         mode: 0644
-
-    - name: Install Laravel dependencies
-      composer:
-        command: install
-        working_dir: /var/www/html/laravel-realworld-example-app
-      become: false
-      tags: [ 'composer:install' ]
-      ignore_errors: yes
 
 
     - name: change owner of the project to www-data
@@ -133,6 +133,14 @@
         path: /var/www/html/laravel-realworld-example-app/bootstrap/cache
         mode: 0777
         recurse: yes
+
+    - name: Install Laravel dependencies
+      composer:
+        command: install
+        working_dir: /var/www/html/laravel-realworld-example-app
+      become: false
+      tags: [ 'composer:install' ]
+      ignore_errors: yes
 
     - name: Disable default Apache site
       command: a2dissite 000-default.conf
