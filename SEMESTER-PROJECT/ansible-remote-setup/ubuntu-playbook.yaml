@@ -24,7 +24,7 @@
     - name: Install latest version of Apache
       apt: name=apache2 update_cache=yes state=latest
 
-    - name: Install php and necessary modules
+    - name: Install php8.1  and necessary modules
       apt: name={{ item }} state=latest
       with_items:
         - php 
@@ -43,6 +43,11 @@
         - php-curl 
         - php-intl
         - php-pgsql
+
+    - name: php verson
+      command: php -v
+
+    - name: ensure php8-fpm cgi.fix_pathinfo=0
 
     - name: Install Composer
       when: "local_binaries.stdout.find('composer') == -1"
