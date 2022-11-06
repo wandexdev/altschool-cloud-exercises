@@ -44,9 +44,6 @@
         - php-intl
         - php-pgsql
 
-    - name: php version
-      command: php8.1-fpm
-
     - name: Install Composer
       when: "local_binaries.stdout.find('composer') == -1"
       shell: |
