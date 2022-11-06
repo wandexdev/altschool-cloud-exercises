@@ -110,9 +110,10 @@
       composer:
         command: install
         working_dir: /var/www/html/laravel-realworld-example-app
-      environment:
-        COMPOSER_NO_INTERACTION: "1"
-        COMPOSER_ALLOW_SUPERUSER: "1"
+      become: false
+      tags: [ 'composer:install' ]
+      ignore_errors: yes
+
 
     - name: change owner of the project to www-data
       file:
