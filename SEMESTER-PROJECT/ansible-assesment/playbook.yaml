@@ -13,8 +13,8 @@
           upgrade: yes
           update_cache: yes
 
-    - name: Install prerequisites
-      apt: name={{ item }} update_cache=yes state=latest force_apt_get=yes
+#   - name: Install prerequisites
+#      apt: name={{ item }} update_cache=yes state=latest force_apt_get=yes
 #      loop: [ 'aptitude' ]
 
     - name: Install Apache Server
@@ -166,8 +166,8 @@
         line: 18.212.233.245 wandexdev.me
         line: 54.146.234.37 
 
-  #  - name: Run migrations and seeders
-  #    command: php {{ app_root }}/artisan migrate --seed
+    - name: Run migrations and seeders
+      command: php {{ app_root }}/artisan migrate --seed
       
     - name: Change file ownership, group and permissions
       ansible.builtin.file:
