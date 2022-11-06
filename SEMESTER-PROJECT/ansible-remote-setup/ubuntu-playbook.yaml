@@ -1,5 +1,5 @@
 - name: Ansible Playbook to Install and Setup Apache on Ubuntu
-  hosts: webserver
+  hosts: all
   become: yes
   vars:
     DB_CONNECTION: pgsql
@@ -7,7 +7,7 @@
     DB_USERNAME: laravel
     DB_PASSWORD: 4OFxc3t2bLS24OOkfpn
     DB_HOST: localhost
-    DB_PORT: 5432
+    DB_PORT: 3306
   tasks:
     - name: Install required packaged
       apt:
