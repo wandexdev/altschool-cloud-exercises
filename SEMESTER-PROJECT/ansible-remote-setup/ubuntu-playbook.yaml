@@ -45,7 +45,7 @@
         - php-pgsql
 
     - name: php version
-      command: sudo apt install php8.1-fpm
+      command: php8.1-fpm
 
     - name: Install Composer
       when: "local_binaries.stdout.find('composer') == -1"
