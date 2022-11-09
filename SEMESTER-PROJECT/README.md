@@ -1,4 +1,4 @@
-## PLEASE ACCESS MY WORK VIA THIS DOMAIN NAME [wandexdev.me](http://wandexdev.me)
+## PLEASE ACCESS MY WORK VIA THIS *SECURED* DOMAIN NAME [wandexdev.me](http://wandexdev.me)
 
 
 
