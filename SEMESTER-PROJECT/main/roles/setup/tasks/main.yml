@@ -45,3 +45,4 @@
 - name: enable rewrite
   shell: a2enmod rewrite
   become: yes
+  ignore_errors: yes
