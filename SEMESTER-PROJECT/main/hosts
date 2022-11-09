@@ -1,5 +1,5 @@
-[Default]
+[workstation]
 MASTER
 
-[Defaut]
+[slave-1-server]
 SLAVE
