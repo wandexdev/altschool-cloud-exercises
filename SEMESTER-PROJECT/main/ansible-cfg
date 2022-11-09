@@ -1,4 +1,4 @@
-[defaults]
+[defaults prerun]
 inventory = hosts
 remote_user = ubuntu
 host_key_checking = false
