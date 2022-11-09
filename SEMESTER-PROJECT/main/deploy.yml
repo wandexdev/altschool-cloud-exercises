@@ -10,6 +10,7 @@
     - composer
     - mysql
       #    - geerlingguy.mysql
+      #    - postgress database scrpit runs and deploys to slave server
     - pgsql
     - deploy
     
